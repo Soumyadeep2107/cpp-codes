@@ -2,8 +2,11 @@
 using namespace std;
 int main()
 {
-    // string s="Hello";
-    // cout<<s+"World";
-    string st="The color of the sky is blue";
-    cout<<st[2];
+    string s="soumyadeep";
+    // cout<<(s.find('xmn'));
+    cout<<s[3]<<" "<<s[4]<<endl;
+    s.erase(3,2);
+    cout<<s<<endl;
+    cout<<s[3]<<" "<<s[4]<<endl;
+    return 0;
 }
